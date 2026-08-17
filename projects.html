@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Projects | Acton Energy</title>
+<meta name="description" content="Acton Energy's battery storage portfolio in Germany: Lauta (40 MW) and Plettenberg (30 MW) in realization, six proprietary developments totalling 960 MW / 2.27 GWh. Interactive portfolio map.">
+<link rel="stylesheet" href="assets/site.css">
+<link rel="preload" href="assets/fonts/Archivo.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='14' fill='%23EE4D23'/><circle cx='50' cy='50' r='38' fill='none' stroke='%23EE4D23' stroke-width='11'/></svg>">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32.png">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+<link rel="canonical" href="https://acton.energy/projects.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Acton Energy">
+<meta property="og:title" content="Projects | Acton Energy">
+<meta property="og:description" content="Acton Energy's battery storage portfolio in Germany: Lauta (40 MW) and Plettenberg (30 MW) in realization, six proprietary developments totalling 960 MW / 2.27 GWh. Interactive portfolio map.">
+<meta property="og:url" content="https://acton.energy/projects.html">
+<meta property="og:image" content="https://acton.energy/assets/img/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<noscript><style>.reveal,.reveal-stagger>*{opacity:1;transform:none}</style></noscript>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html" aria-label="Acton Energy home">
+      <img src="assets/img/logo_white.png" alt="Acton Energy" width="900" height="132">
+    </a>
+    <button class="nav-toggle" aria-label="Menu" aria-expanded="false" aria-controls="site-nav"><span></span></button>
+    <nav class="site-nav" id="site-nav" aria-label="Main">
+      <a href="model.html">The Model</a>
+      <a href="projects.html">Projects</a>
+      <a href="impact.html">Impact</a>
+      <a href="company.html">Company</a>
+      <a href="partners.html">Partners</a>
+      <a class="nav-cta" href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+<section class="page-hero">
+  <div class="wrap">
+    <span class="label label--signal">Portfolio</span>
+    <h1>Projects with names, numbers and coordinates.</h1>
+    <p class="lede">Two projects in realization, six proprietary developments. Every site listed below is real: secured or contracted land, grid processes underway, published capacity. We add projects to this page when they are substantiated, not before. Three developments are shown without their site names; we publish names and details once the projects reach the appropriate stage.</p>
+  </div>
+</section>
+
+<section class="section--navy" aria-label="Portfolio key figures">
+  <div class="kpi-band kpi-band--3">
+    <div class="kpi">
+      <span class="kpi-value num">2.4 <em>GW</em></span>
+      <span class="kpi-label">Total development pipeline including framework partnerships and acquisitions</span>
+    </div>
+    <div class="kpi">
+      <span class="kpi-value num">70 <em>MW</em></span>
+      <span class="kpi-label">In realization: Lauta and Plettenberg, both targeting commissioning in 2027</span>
+    </div>
+    <div class="kpi">
+      <span class="kpi-value num">8</span>
+      <span class="kpi-label">Projects in realization and development; three sites not yet named</span>
+    </div>
+  </div>
+</section>
+
+<section class="section section--paper on-paper">
+  <div class="wrap">
+    <div class="map-layout">
+      <figure class="map-figure reveal" style="position:relative">
+        <div id="mainMap"></div>
+        <div class="map-tip" id="mapTip" role="status"></div>
+        <figcaption class="map-legend">
+          <span class="badge badge--realization"><span class="dot"></span>In realization (2)</span>
+          <span class="badge badge--development"><span class="dot"></span>In development (6)</span>
+        </figcaption>
+      </figure>
+      <div>
+        <div class="filter-row reveal" role="group" aria-label="Filter projects by status">
+          <button class="filter-btn active" data-filter="all" aria-pressed="true">All</button>
+          <button class="filter-btn" data-filter="realization" aria-pressed="false">In realization</button>
+          <button class="filter-btn" data-filter="development" aria-pressed="false">In development</button>
+        </div>
+        <div class="card-grid" id="projectGrid" style="grid-template-columns:1fr"></div>
+        <p class="footnote" style="margin-top:26px">Capacity figures are project design values and may be refined during permitting and procurement. Commissioning targets are stated for projects in realization only; for developments we publish dates once construction is secured.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--navy">
+  <div class="wrap">
+    <div class="split">
+      <div class="reveal">
+        <span class="label label--signal" style="display:block;margin-bottom:16px">Beyond the map</span>
+        <h2>The pipeline behind the sites.</h2>
+      </div>
+      <div class="reveal">
+        <p class="muted" style="margin-bottom:14px">The eight projects above are the visible part of a 2.4 GW development pipeline. It combines four sourcing channels: opportunistic acquisitions, proprietary large-scale development, decentralized storage deployment and industrial partnerships.</p>
+        <p class="muted" style="margin-bottom:18px">Exclusive framework agreements with established German developers secure a predictable flow of ready-to-build projects on top of our own development work. We announce projects from these channels as they reach substance.</p>
+        <a class="arrow-link" href="model.html">How we source and build</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="image-band">
+  <img src="assets/img/bess_site.jpg" alt="Aerial view of a battery storage site in Germany" loading="lazy">
+  <div class="band-overlay"></div>
+  <div class="wrap" style="display:flex;align-items:flex-end;min-height:inherit;padding-top:80px;padding-bottom:56px">
+    <p class="lede" style="color:#fff;max-width:40ch">Land, steel, cells and grid connection: storage is infrastructure, and infrastructure is built site by site.</p>
+  </div>
+</div>
+
+<section class="section section--paper">
+  <div class="wrap" style="text-align:center">
+    <div class="reveal">
+      <h2 style="max-width:24ch;margin:0 auto 18px">Do you own land near a substation?</h2>
+      <p class="lede muted" style="margin:0 auto 30px;max-width:52ch">We lease sites long-term, carry all development and construction costs, and commit to full decommissioning. Two hectares near grid infrastructure can become a project.</p>
+      <a class="btn btn--signal" href="partners.html">Partner with us</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <img class="footer-logo" src="assets/img/logo_white.png" alt="Acton Energy">
+        <p class="footer-note">Acton Energy is a German independent power producer for grid-scale battery storage. We develop, build, own and optimize flexible infrastructure for a renewable power system.</p>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="model.html">The Model</a></li>
+          <li><a href="company.html">About us</a></li>
+          <li><a href="partners.html">Partners</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Portfolio</h4>
+        <ul>
+          <li><a href="projects.html">Projects &amp; map</a></li>
+          <li><a href="impact.html">Impact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="imprint.html">Imprint</a></li>
+          <li><a href="privacy.html">Privacy</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span data-year>2026</span> Acton Energy Holding GmbH · Schäftlarn, Germany</span>
+      <span><a href="imprint.html">Imprint</a> · <a href="privacy.html">Privacy</a></span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/projects-map.js"></script>
+<script src="assets/site.js"></script>
+<script>
+(function () {
+  'use strict';
+  var grid = document.getElementById('projectGrid');
+  var mapHost = document.getElementById('mainMap');
+  var tip = document.getElementById('mapTip');
+  if (!grid || !mapHost || !tip || !window.ACTON_PROJECTS) return;
+
+  // Filter-Zaehler aus der Datenquelle ableiten
+  document.querySelectorAll('.filter-btn').forEach(function (b) {
+    var key = b.getAttribute('data-filter');
+    var n = window.ACTON_PROJECTS.filter(function (p) { return key === 'all' || p.status === key; }).length;
+    b.textContent = b.textContent + ' (' + n + ')';
+  });
+
+  var svg = window.actonRenderMap(mapHost, { interactive: true });
+
+  function esc(s) { var d = document.createElement('div'); d.textContent = s; return d.innerHTML; }
+
+  function cardHtml(p) {
+    var stats = '<div class="project-stats">' +
+      '<span class="stat"><b class="num">' + p.mw + ' MW</b><span>Power</span></span>' +
+      (p.mwh ? '<span class="stat"><b class="num">' + p.mwh + ' MWh</b><span>Capacity</span></span>' : '') +
+      (p.codYear ? '<span class="stat"><b class="num">' + p.codYear + '</b><span>Target COD</span></span>' : '') +
+      '</div>';
+    return '<article class="project-card" data-slug="' + p.slug + '" data-status="' + p.status + '" tabindex="0">' +
+      '<span class="badge badge--' + p.status + '"><span class="dot"></span>' + esc(p.statusLabel) + '</span>' +
+      '<h3>' + esc(p.name) + '</h3>' +
+      '<p class="project-meta">' + esc(p.region) + '</p>' +
+      stats +
+      '<p class="muted" style="font-size:.92rem">' + esc(p.blurb) + '</p>' +
+      '</article>';
+  }
+
+  function render(filter) {
+    var list = window.ACTON_PROJECTS.filter(function (p) { return filter === 'all' || p.status === filter; });
+    grid.innerHTML = list.map(cardHtml).join('');
+    // dim non-matching markers
+    svg.querySelectorAll('.map-marker').forEach(function (m) {
+      var p = window.ACTON_PROJECTS.find(function (q) { return q.slug === m.getAttribute('data-slug'); });
+      m.style.opacity = (filter === 'all' || p.status === filter) ? '1' : '.18';
+    });
+    bindCards();
+  }
+
+  function highlight(slug, on) {
+    svg.querySelectorAll('.map-marker').forEach(function (m) {
+      m.classList.toggle('active', on && m.getAttribute('data-slug') === slug);
+    });
+    grid.querySelectorAll('.project-card').forEach(function (c) {
+      c.classList.toggle('active', on && c.getAttribute('data-slug') === slug);
+    });
+  }
+
+  function showTip(marker) {
+    var slug = marker.getAttribute('data-slug');
+    var p = window.ACTON_PROJECTS.find(function (q) { return q.slug === slug; });
+    if (!p) return;
+    tip.innerHTML = '<strong>' + esc(p.name) + '</strong><br>' +
+      '<span class="tip-meta">' + esc(p.region) + '</span><br>' +
+      '<span class="num">' + p.mw + ' MW' + (p.mwh ? ' / ' + p.mwh + ' MWh' : '') + '</span> · ' + esc(p.statusLabel);
+    var fig = tip.parentElement;
+    var fr = fig.getBoundingClientRect();
+    var mr = marker.getBoundingClientRect();
+    var x = mr.left - fr.left + mr.width / 2;
+    var y = mr.top - fr.top;
+    tip.style.left = Math.max(0, Math.min(x - 95, fr.width - 200)) + 'px';
+    tip.style.top = Math.max(0, y - 86) + 'px';
+    tip.classList.add('visible');
+  }
+  function hideTip() { tip.classList.remove('visible'); }
+
+  svg.querySelectorAll('.map-marker').forEach(function (m) {
+    m.addEventListener('mouseenter', function () { highlight(m.getAttribute('data-slug'), true); showTip(m); });
+    m.addEventListener('mouseleave', function () { highlight(null, false); hideTip(); });
+    m.addEventListener('focus', function () { highlight(m.getAttribute('data-slug'), true); showTip(m); });
+    m.addEventListener('blur', function () { highlight(null, false); hideTip(); });
+    function activate() {
+      var card = grid.querySelector('.project-card[data-slug="' + m.getAttribute('data-slug') + '"]');
+      if (card) { card.scrollIntoView({ behavior: 'smooth', block: 'center' }); highlight(m.getAttribute('data-slug'), true); }
+    }
+    m.addEventListener('click', activate);
+    m.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); activate(); }
+    });
+  });
+
+  function bindCards() {
+    grid.querySelectorAll('.project-card').forEach(function (c) {
+      c.addEventListener('mouseenter', function () { highlight(c.getAttribute('data-slug'), true); });
+      c.addEventListener('mouseleave', function () { highlight(null, false); });
+      c.addEventListener('focus', function () { highlight(c.getAttribute('data-slug'), true); });
+      c.addEventListener('blur', function () { highlight(null, false); });
+    });
+  }
+
+  document.querySelectorAll('.filter-btn').forEach(function (b) {
+    b.addEventListener('click', function () {
+      document.querySelectorAll('.filter-btn').forEach(function (x) { x.classList.remove('active'); x.setAttribute('aria-pressed', 'false'); });
+      b.classList.add('active');
+      b.setAttribute('aria-pressed', 'true');
+      render(b.getAttribute('data-filter'));
+    });
+  });
+
+  render('all');
+})();
+</script>
+</body>
+</html>
